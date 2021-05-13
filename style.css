@@ -167,4 +167,13 @@ li a:hover {
     margin-bottom: 5px;
     font-size: 14px;
 }
+#rodape {
 
+	width: 100%;
+	height: 8px;
+	border: solid;
+	color: #9244fe;
+	background-color: #9244fe;
+	display:flex;
+	margin-top: 200px;
+}
