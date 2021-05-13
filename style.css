@@ -1,0 +1,170 @@
+html * {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+ul, li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+	float: left;
+}
+
+.texto-botao{
+    background-color: inherit;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.item-esq{
+    margin-right: 20px;
+}
+
+.icon {
+    height: 28px;
+    width: 28px;
+    cursor: pointer;
+}
+
+.proc.botao {
+    background-color: #ffffff;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.menu-busca {
+    position: absolute;
+    right: 0;
+}
+
+.menu-busca input {
+    width: 100%;
+    background-color: lightgray;
+    border: none;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+	padding-top: 10px;
+	padding-right: 18x;
+  	padding-bottom: 10px;
+  	padding-left: 150px;
+	
+}
+
+.ent {
+    font-size: 14px;
+    margin-right: 5px;
+    margin-left: 5px;
+    bottom: 10px;
+    height: 28px;
+    background-color: ghostwhite;
+    border-radius: 4px;
+}
+
+.esq-messages {
+    width: 200px;
+}
+
+.message-box {
+    position: relative;
+    top:10px;
+    bottom: 10px;
+    left: 10px;
+}
+
+.ent-botao {
+    border: none;
+    background-color: #6441A4;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    margin-right: 10px;
+    min-width: 90px;
+    cursor: pointer;
+}
+
+.message-box button {
+    padding: 7px 14px;
+}
+
+.icon-jg {
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    border-radius: 25px;
+    margin-top: 20px;
+    margin-bottom: -10px;
+}
+
+.aovivo {
+    background-color: #f7f7f8;
+    margin-top: 20px;
+	width: 100%;
+
+}
+
+.aovivo h3 {
+    margin-left: 20x;
+    height: 10px;
+}
+
+.lives li {
+    list-style: none;
+    display: inline;
+    float: left;
+    line-height: 10px;
+}
+.lives li p {
+    color: rgb(94, 90, 90);
+}
+
+.tags li{
+    list-style: none;
+    display: inline;
+    float: left;
+    border: 12px solid lightgray;
+    background-color: lightgray;
+    border-radius: 20px;
+    color: rgb(94, 90, 90);
+	font-size: 10px;
+}
+
+.jg-cards {
+    background-color: #f7f7f8;
+    margin-top: 10px;
+}
+
+.categoria {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px;
+    display: flex;
+}
+
+.jg-cards li {
+    margin-left: 10px;
+}
+
+.jg-tags li{
+    list-style: none;
+    display: inline;
+    border: 10px solid lightgray;
+    background-color: lightgray;
+    border-radius: 20px;
+    color: rgb(94, 90, 90);
+    max-width: 120px;
+	font-size: 10px;
+	
+}
+
+.jg-card-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
